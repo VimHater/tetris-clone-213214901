@@ -7,6 +7,7 @@ class Grid {
         void Init();
         void Print();
         void draw();
+        bool outofbound(int row, int col);
         int grid[20][20];
     private:
         int numRows;
