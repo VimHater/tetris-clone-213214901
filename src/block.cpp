@@ -7,4 +7,4 @@ block::block() {
     colors = cellcolors();
 }
 
-void block::draw
+//void block::draw
