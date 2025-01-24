@@ -72,21 +72,21 @@ void game::handleinput() {
 
 void game::moveblockleft() {
     currentblock.move(0, -1);
-    if(isblockoutside()) {
+    if(isblockoutside() || !blockfits()) {
         currentblock.move(0, 1);
     }
 }
 
 void game::moveblockright() {
     currentblock.move(0, 1);
-    if(isblockoutside()) {
+    if(isblockoutside() || !blockfits()) {
         currentblock.move(0, -1);
     }
 }
 
 void game::moveblockdown() {
     currentblock.move(1, 0);
-    if(isblockoutside()) {
+    if(isblockoutside() || !blockfits()) {
         currentblock.move(-1, 0);
         lockblock();
     }
@@ -104,7 +104,7 @@ bool game::isblockoutside() {
 
 void game::rotateblock() {
     currentblock.Rotate();
-    if(isblockoutside()) {
+    if(isblockoutside() || !blockfits()) {
         currentblock.undoRotate();
     }
 }
@@ -119,5 +119,11 @@ void game::lockblock() {
 }
 
 bool game::blockfits() {
-    std::vector<position> currentblock.ce
+    std::vector<position> tiles = currentblock.cellposition();
+    for (position item : tiles) {
+        if(!grid.emptycell(item.row, item.col)) {
+            return false;
+        }
+    }
+    return true;
 }
