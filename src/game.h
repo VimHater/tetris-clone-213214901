@@ -16,6 +16,8 @@ class game {
     private:
         bool isblockoutside();
         void rotateblock();
+        void lockblock();
+        bool blockfits();
         std::vector<block> blocks;
         block currentblock;
         block nextblock;

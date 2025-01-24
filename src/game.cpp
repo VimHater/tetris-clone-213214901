@@ -88,6 +88,7 @@ void game::moveblockdown() {
     currentblock.move(1, 0);
     if(isblockoutside()) {
         currentblock.move(-1, 0);
+        lockblock();
     }
 }
 
@@ -106,4 +107,17 @@ void game::rotateblock() {
     if(isblockoutside()) {
         currentblock.undoRotate();
     }
+}
+
+void game::lockblock() {
+    std::vector<position> tiles = currentblock.cellposition();
+    for (position item : tiles) {
+        grid.grid[item.row][item.col] = currentblock.id;
+    }
+    nextblock = randomblock();
+    currentblock = nextblock;
+}
+
+bool game::blockfits() {
+    std::vector<position> currentblock.ce
 }

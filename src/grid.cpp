@@ -43,3 +43,10 @@ bool Grid::outofbound(int row, int col) {
     }
     return true;
 }
+
+bool Grid::emptycell(int row, int col) {
+    if(grid[row][col] == 0) {
+        return true;
+    }
+    return false;
+}

@@ -1,5 +1,14 @@
 #include "raylib.h"
 #include "game.h"
+double lastupdatetime = 0;
+bool eventtrigger(double interval) {
+    double currenttime = GetTime();
+    if(currenttime - lastupdatetime >= interval) {
+        lastupdatetime = currenttime;
+        return true;
+    }
+    return false;
+}
 int main ()
 {
     InitWindow(300, 600, "raylib Tetris");
@@ -15,6 +24,9 @@ int main ()
     
     while(WindowShouldClose() == false) {
         Game.handleinput();
+        if(eventtrigger(0.2)) {
+            Game.moveblockdown();
+        }
         BeginDrawing();
         ClearBackground(bg);
         Game.draw();
