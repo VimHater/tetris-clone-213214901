@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\",
+  "WorkspaceRootPath": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\colors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|solutionrelative:src\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\colors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|solutionrelative:src\\colors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\position.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\position.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|solutionrelative:src\\position.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|solutionrelative:src\\block.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{125E77F7-FE57-A049-E7C4-365AD35D06B6}|build\\build_files\\tetris-clone-213214901.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +30,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "position.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\position.cpp",
-              "RelativeDocumentMoniker": "src\\position.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\position.cpp",
-              "RelativeToolTip": "src\\position.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\game.cpp",
+              "RelativeDocumentMoniker": "src\\game.cpp",
+              "ToolTip": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\game.cpp",
+              "RelativeToolTip": "src\\game.cpp",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-23T13:24:39.996Z",
+              "WhenOpened": "2025-01-26T03:56:56.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "position.cpp",
+              "DocumentMoniker": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\position.cpp",
+              "RelativeDocumentMoniker": "src\\position.cpp",
+              "ToolTip": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\position.cpp",
+              "RelativeToolTip": "src\\position.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-23T13:24:39.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "colors.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\colors.cpp",
+              "DocumentMoniker": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\colors.cpp",
               "RelativeDocumentMoniker": "src\\colors.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\colors.cpp",
+              "ToolTip": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\colors.cpp",
               "RelativeToolTip": "src\\colors.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -56,11 +72,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "block.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\block.cpp",
+              "DocumentMoniker": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\block.cpp",
               "RelativeDocumentMoniker": "src\\block.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\block.cpp",
+              "ToolTip": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\block.cpp",
               "RelativeToolTip": "src\\block.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -68,15 +84,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\main.cpp",
               "RelativeDocumentMoniker": "src\\main.cpp",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\tetris-clone-213214901\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\khoanguyen\\Documents\\GitHub\\tetris-clone-213214901\\src\\main.cpp",
               "RelativeToolTip": "src\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-23T13:21:02.395Z"
+              "WhenOpened": "2025-01-23T13:21:02.395Z",
+              "EditorCaption": ""
             }
           ]
         }

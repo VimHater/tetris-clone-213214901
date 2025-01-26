@@ -16,10 +16,10 @@ game::game() {
     score = 0;
     InitAudioDevice();
     
-    theme_music = LoadMusicStream(".../resources/sound-effect/music.mp3");
+    theme_music = LoadMusicStream("sound-effect/music.mp3");
     PlayMusicStream(theme_music);
-    rotate = LoadSound(".../resources/sound-effect/rotate.wav");
-    clear  = LoadSound(".../resources/sound-effect/clear.mp3");
+    rotate = LoadSound("sound-effect/rotate.wav");
+    clear  = LoadSound("sound-effect/clear.mp3");
 }
 
 game::~game() {
