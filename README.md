@@ -1,5 +1,3 @@
-Used raylib
-Thanks Programming With Nick on Youtube for the tutorial
 
 ## Control
 + 'a' and 's' or 'left' and 'right' to move left and right
