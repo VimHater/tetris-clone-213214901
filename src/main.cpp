@@ -20,7 +20,7 @@ double speed(double &time) {
 }
 int main ()
 {
-    InitWindow(510, 620, "Tetris Clone");
+    InitWindow(550, 620, "Tetris Clone");
     SetTargetFPS(60);
     
     Font font = LoadFontEx("font/font.ttf", 64, 0, 0);
@@ -45,7 +45,7 @@ int main ()
         DrawTextEx(font, "NEXT", {370, 175}, 38, 2, WHITE);
         if(Game.gameover) {
             DrawTextEx(font, "GAME OVER", {300, 450}, 38, 2, WHITE);
-            DrawTextEx(font, "U're DEAD", { 300, 500 }, 38, 2, WHITE);
+            DrawTextEx(font, "U'RE DEAD", { 300, 500 }, 38, 2, WHITE);
         }
         DrawRectangleRounded({320, 55, 170, 60}, 0.3, 6, pcbgreen);
         DrawRectangleRounded({320, 215, 170, 180}, 0.3, 6, pcbgreen);
