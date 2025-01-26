@@ -1,4 +1,5 @@
 #include"colors.h"
+#include <raylib.h>
 
 const Color darkgrey = {26, 31, 40, 255};
 const Color green = {47 , 230, 23 , 255};
@@ -8,7 +9,7 @@ const Color yellow = {237, 234, 4, 255};
 const Color purple = {166, 0 , 247, 255};
 const Color cyan = {21, 204, 209, 255};
 const Color blue = {12 ,64 , 216, 255};
-
+const Color pcbgreen = {4, 99 ,7 ,255};
 std::vector<Color> cellcolors() {
     return {darkgrey, green, red, orange, yellow, purple, cyan, blue};
 }
